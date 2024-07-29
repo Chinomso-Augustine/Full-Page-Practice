@@ -95,7 +95,7 @@ nav .fa{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background:royalblue;
         height: 100vh;
         width: 200px;
@@ -326,4 +326,159 @@ h3{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+
+/*About Us*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Content-Image/About.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+.sub-header h1{
+    margin-top: 30px;
+
+
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.purple-btn{
+    border: 2px solid purple;
+    background: transparent;
+    color: purple;
+}
+.purple-btn:hover{
+    color: white;
+}
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;;
+}
+.blog-left h2{
+    color: navy;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #555353;
+    padding: 0;
+}
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-right h3{
+    background: purple;
+    color: white;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: navy;
+    padding: 8px;
+    box-sizing:border-bo ;
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: rgb(252, 239, 252);
+}
+.comment-form button{
+    margin: 10px 0;
+}
+@media(max-width:700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
+
+/*Location*/
+.location{
+width: 80%;
+margin: auto;
+padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.location iframe{
+width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom:30px ;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: navy;
+    margin: 10px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: purple;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid navy;
+    box-sizing: border-box;
 }
